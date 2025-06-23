@@ -1,0 +1,49 @@
+
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75.41 56.92">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9bc9ff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #1e81ce;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #1e81ce;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <path class="cls-1" d="M61.3,35.71c0,11.49-9.52,20.76-21.11,20.35s-19.62-9.8-19.62-20.84v-13.42c0-1.13.91-2.04,2.04-2.04h36.65c1.13,0,2.04.91,2.04,2.04v13.91Z"/>
+        <rect class="cls-2" x="29.97" y="26.32" width="23.23" height="5.95" rx=".76" ry=".76"/>
+        <path class="cls-3" d="M55.14,14.7c0-7.84-6.36-14.2-14.2-14.2s-14.2,6.36-14.2,14.2v5.27h4.24v-5.27c0-5.5,4.46-9.96,9.96-9.96s9.96,4.46,9.96,9.96v5.27h4.24s0-5.27,0-5.27Z"/>
+      </g>
+      <g>
+        <rect class="cls-4" x="29.29" y="35.91" width="4.02" height="4.02" rx=".71" ry=".71"/>
+        <rect class="cls-4" x="36.15" y="35.91" width="4.02" height="4.02" rx=".71" ry=".71"/>
+        <rect class="cls-4" x="43" y="35.91" width="4.02" height="4.02" rx=".71" ry=".71"/>
+        <rect class="cls-4" x="49.85" y="35.91" width="4.02" height="4.02" rx=".71" ry=".71"/>
+      </g>
+      <g>
+        <circle class="cls-2" cx="13.11" cy="28.79" r="3.48"/>
+        <circle class="cls-2" cx="4.57" cy="45.06" r="4.07"/>
+        <polyline class="cls-3" points="13.11 32.27 13.11 41.38 21.48 41.38"/>
+        <line class="cls-1" x1="23.08" y1="45.06" x2="8.65" y2="45.06"/>
+      </g>
+      <line class="cls-1" x1="26.72" y1="56.42" x2="75.41" y2="56.42"/>
+    </g>
+  </g>
+</svg>

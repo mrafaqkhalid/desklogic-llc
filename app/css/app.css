@@ -1,5 +1,3 @@
-
-
 :root {
     --background: #fff;
     --foreground: #171717;
@@ -166,4 +164,58 @@ h1, h2, h3, h4, h5, h6 {
     .hero {
         padding:70px 0
     }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: var(--app-1);
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 9999px;
+    color: white !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 18px !important;
+    font-weight: 600;
+}
+
+.swiper-button-prev {
+    left: 0px !important;
+}
+
+.swiper-button-next {
+    right: 0px !important;
+}
+
+/* Swiper navigation: hidden by default, visible on hover */
+.features-slider .swiper-button-next,
+.features-slider .swiper-button-prev {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+.features-slider:hover .swiper-button-next,
+.features-slider:hover .swiper-button-prev {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+/* features section FAQ bg color */
+
+.bg-e9efff {
+    background-color: #e9efff !important;
+  }
+
+@media (min-width: 1024px) {
+  .feature-card {
+    min-width: 340px;
+    max-width: 481px;
+    min-height: 370px;
+    max-height: 3840px;
+    height: 100%;
+    width: 100%;
+  }
 }

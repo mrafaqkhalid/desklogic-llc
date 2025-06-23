@@ -112,7 +112,7 @@ get_header();
     </section> -->
     <div class="relative  mx-auto text-white bg-[transparent]">
         <section
-            class="bg-app-1 mx-4 px-4 pb-10 md:pb-0 md:mx-auto lg:max-w-[1500px] pt-16 md:pt-32 md:max-w-[1380px] rounded-[50px] relative z-40 ">
+            class="bg-[var(--app-1)] mx-4 px-4 pb-10 md:pb-0 md:mx-auto lg:max-w-[1500px] pt-16 md:pt-32 md:max-w-[1380px] rounded-[50px] relative z-40 ">
             <div class="container max-w- mx-auto px-0 text-center">
                 <div class="flex flex-col items-center">
                     <div class="w-full md:w-8/12 md:mb-6">
@@ -431,7 +431,7 @@ get_header();
         <div class="container max-w-7xl mx-auto px-4">
             <div class="flex flex-wrap items-center justify-between flex-col-reverse md:flex-row">
                 <div class="w-full md:w-1/2 mt-6 md:mt-0 order-2 mb-8 md:mb-0 md:order-1">
-                    <figure class="mobile-mock bg-app-1 rounded-[50px]"><img alt="DESKLOGIC Features" data-aos="fade-up"
+                    <figure class="mobile-mock bg-[var(--app-1)] rounded-[50px]"><img alt="DESKLOGIC Features" data-aos="fade-up"
                             loading="lazy" width="2549" height="2999" decoding="async" data-nimg="1"
                             class="img-fluid rounded aos-init"
                             srcset="https://www.desklogic.com//_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmobile.065a036a.png&amp;w=3840&amp;q=75 1x"
@@ -446,49 +446,49 @@ get_header();
                         designed to streamline your home inspection process:</h2>
                     <ul class="mt-4 list-inside">
                         <li class="mt-2 flex items-center aos-init" data-aos="fade-in"><svg width="20" height="20"
-                                viewBox="0 0 16 16" class="bg-app-2 p-1 rounded-full mr-4">
+                                viewBox="0 0 16 16" class="bg-[var(--app-2)] p-1 rounded-full mr-4">
                                 <rect width="16" height="16" fill="none"></rect>
                                 <path d="M0,9.014L1.414,7.6L5.004,11.189L14.593,1.6L16.007,3.014L5.003,14.017L0,9.014Z"
                                     fill="white"></path>
                             </svg>Customizable inspection templates</li>
                         <li class="mt-2 flex items-center aos-init" data-aos="fade-in"><svg width="20" height="20"
-                                viewBox="0 0 16 16" class="bg-app-2 p-1 rounded-full mr-4">
+                                viewBox="0 0 16 16" class="bg-[var(--app-2)] p-1 rounded-full mr-4">
                                 <rect width="16" height="16" fill="none"></rect>
                                 <path d="M0,9.014L1.414,7.6L5.004,11.189L14.593,1.6L16.007,3.014L5.003,14.017L0,9.014Z"
                                     fill="white"></path>
                             </svg>Instant report generation</li>
                         <li class="mt-2 flex items-center aos-init" data-aos="fade-in"><svg width="20" height="20"
-                                viewBox="0 0 16 16" class="bg-app-2 p-1 rounded-full mr-4">
+                                viewBox="0 0 16 16" class="bg-[var(--app-2)] p-1 rounded-full mr-4">
                                 <rect width="16" height="16" fill="none"></rect>
                                 <path d="M0,9.014L1.414,7.6L5.004,11.189L14.593,1.6L16.007,3.014L5.003,14.017L0,9.014Z"
                                     fill="white"></path>
                             </svg>Mobile-friendly interface</li>
                         <li class="mt-2 flex items-center aos-init" data-aos="fade-in"><svg width="20" height="20"
-                                viewBox="0 0 16 16" class="bg-app-2 p-1 rounded-full mr-4">
+                                viewBox="0 0 16 16" class="bg-[var(--app-2)] p-1 rounded-full mr-4">
                                 <rect width="16" height="16" fill="none"></rect>
                                 <path d="M0,9.014L1.414,7.6L5.004,11.189L14.593,1.6L16.007,3.014L5.003,14.017L0,9.014Z"
                                     fill="white"></path>
                             </svg>Client management system</li>
                         <li class="mt-2 flex items-center aos-init" data-aos="fade-in"><svg width="20" height="20"
-                                viewBox="0 0 16 16" class="bg-app-2 p-1 rounded-full mr-4">
+                                viewBox="0 0 16 16" class="bg-[var(--app-2)] p-1 rounded-full mr-4">
                                 <rect width="16" height="16" fill="none"></rect>
                                 <path d="M0,9.014L1.414,7.6L5.004,11.189L14.593,1.6L16.007,3.014L5.003,14.017L0,9.014Z"
                                     fill="white"></path>
                             </svg>Integrated scheduling and invoicing</li>
                         <li class="mt-2 flex items-center aos-init" data-aos="fade-in"><svg width="20" height="20"
-                                viewBox="0 0 16 16" class="bg-app-2 p-1 rounded-full mr-4">
+                                viewBox="0 0 16 16" class="bg-[var(--app-2)] p-1 rounded-full mr-4">
                                 <rect width="16" height="16" fill="none"></rect>
                                 <path d="M0,9.014L1.414,7.6L5.004,11.189L14.593,1.6L16.007,3.014L5.003,14.017L0,9.014Z"
                                     fill="white"></path>
                             </svg>Secure cloud storage for all your reports</li>
                         <li class="mt-2 flex items-center aos-init" data-aos="fade-in"><svg width="20" height="20"
-                                viewBox="0 0 16 16" class="bg-app-2 p-1 rounded-full mr-4">
+                                viewBox="0 0 16 16" class="bg-[var(--app-2)] p-1 rounded-full mr-4">
                                 <rect width="16" height="16" fill="none"></rect>
                                 <path d="M0,9.014L1.414,7.6L5.004,11.189L14.593,1.6L16.007,3.014L5.003,14.017L0,9.014Z"
                                     fill="white"></path>
                             </svg>One click to export all your data.</li>
                     </ul><a data-aos="fade-in" data-aos-delay="400" href="/features" class="aos-init"><span
-                            class="cursor-pointer inline-flex items-center px-8 py-5 mt-12 text-white bg-[var(--app-1)] uppercase hover:bg-[var(--app-2)] transition duration-300 ease-in-out rounded-full">Discover
+                            class="cursor-pointer inline-flex items-center px-8 py-5 mt-12 text-white bg-[var(--app-1)] uppercase hover:bg-[var(--[var(--app-2)])] transition duration-300 ease-in-out rounded-full">Discover
                             Features</span></a>
                 </div>
             </div>
@@ -499,20 +499,20 @@ get_header();
     <?php get_template_part('template-parts/pricing-block'); ?>
 
 
-    <section class="cta text-white bg-app-1 py-24">
+    <section class="cta text-white bg-[var(--app-1)] py-24">
         <div class="mx-auto max-w-7xl px-6 lg:px-8 text-center">
             <h2 class="font-bold text-white text-[35px] sm:text-[35px] md:text-[35px] lg:text-[48px] 2xl:text-[58px] leading-[1.35em] tracking-[-0.5px] md:tracking-[-0.5px] lg:tracking-[-2px] aos-init"
                 data-aos="fade-up" data-aos-delay="0">Ready to Transform<br> Your Home Inspection Process?</h2>
             <p class="lead text-[19px] sm:text-[19px] md:text-[19px] lg:text-[19px] 2xl:text-[22px] mb-6 block aos-init"
                 data-aos="fade-up" data-aos-delay="100">Experience the future of home inspections. Sign up now!
             </p><a
-                class="bg-app-2 text-white py-4 px-8 mt-6 rounded-full shadow-lg transition duration-300 hover:bg-gray-900 inline-block uppercase"
+                class="bg-[var(--app-2)] text-white py-4 px-8 mt-6 rounded-full shadow-lg transition duration-300 hover:bg-gray-900 inline-block uppercase"
                 href="https://portal.desklogic.com/auth/signup">Start Your Free Trial</a>
         </div>
     </section>
     <div class="relative  mx-auto bg-[transparent]">
 
-    
+
         <?php get_template_part('template-parts/faq-block'); ?>
     </div>
 

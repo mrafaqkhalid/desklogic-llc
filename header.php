@@ -78,7 +78,7 @@
     <!-- Service Items -->
     <div class="p-6 space-y-5">
       <!-- Item 1 -->
-      <a href="#" class="flex items-start gap-4 hover:bg-gray-50 p-2 rounded-lg transition">
+      <a href="<?php echo site_url('/managed-wordpress-hosting'); ?>" class="flex items-start gap-4 hover:bg-gray-50 p-2 rounded-lg transition">
       <svg class=" flex-shrink-0 h-6 w-6 text-[var(--app-1)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path></svg>
         <div>
           <p class="text-gray-900 font-medium">Managed Wordpress Hosting</p>
@@ -87,7 +87,7 @@
       </a>
 
       <!-- Item 2 -->
-      <a href="#" class="flex items-start gap-4 hover:bg-gray-50 p-2 rounded-lg transition">
+      <a href="<?php echo site_url('/web-design-development'); ?>" class="flex items-start gap-4 hover:bg-gray-50 p-2 rounded-lg transition">
       <svg class="flex-shrink-0 h-6 w-6  text-[var(--app-1)]"" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
         <div>
           <p class="text-gray-900 font-medium">Web Design & Development</p>
@@ -96,7 +96,7 @@
       </a>
 
       <!-- Item 3 -->
-      <a href="#" class="flex items-start gap-4 hover:bg-gray-50 p-2 rounded-lg transition">
+      <a href="<?php echo site_url('/search-engine-optimization'); ?>" class="flex items-start gap-4 hover:bg-gray-50 p-2 rounded-lg transition">
       <svg class="flex-shrink-0 h-6 w-6  text-[var(--app-1)]"" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
         <div>
           <p class="text-gray-900 font-medium">Search Engine Optimization</p>
@@ -127,8 +127,8 @@
   </div>
 </li>
 
-            <li class="text-lg font-semibold"><a href="/events" class="nav-link text-gray-700 hover:text-gray-900">Events</a></li>
-            <li class="text-lg font-semibold"><a href="/connect" class="nav-link text-gray-700 hover:text-gray-900">Connect</a></li>
+            <li class="text-lg font-semibold"><a href="<?php echo site_url('/events'); ?>" class="nav-link text-gray-700 hover:text-gray-900">Events</a></li>
+            <li class="text-lg font-semibold"><a href="<?php echo site_url('/contact'); ?>" class="nav-link text-gray-700 hover:text-gray-900">Connect</a></li>
           </ul>
         </div>
 
@@ -137,28 +137,26 @@
           <a href="https://portal.desklogic.com/auth/signin" class="px-6 py-3 border rounded-full text-white bg-[var(--app-2)] uppercase text-base font-medium hover:text-white transition">Sign in</a>
           <a href="https://portal.desklogic.com/auth/signup" class="px-6 py-3 bg-app-1 text-white rounded-full uppercase text-base font-medium transition">GET STARTED FREE</a>
         </div>
-
-        <!-- Mobile Menu -->
-        <div id="mobileMenu" class="col-span-12 md:hidden hidden flex-col w-full bg-app-1 text-white space-y-4 p-6">
-          <a href="<?php echo esc_url(home_url('/')); ?>">Home</a>
-          <a href="<?php echo site_url('/features'); ?>">Features</a>
-          <button id="mobileSolutionsToggle" class="flex items-center space-x-1">
-            <span>Solutions</span>
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-            </svg>
-          </button>
-          <div id="mobileSolutionsMenu" class="hidden space-y-2 ml-4">
-            <a href="/services/managed-wordpress-hosting">Managed WordPress Hosting</a>
-            <a href="/services/web-development-services">Web Development Services</a>
-            <a href="/services/search-engine-optimization">SEO</a>
-          </div>
-          <a href="/pricing">Pricing</a>
-          <a href="/events">Events</a>
-          <a href="/connect">Connect</a>
-          <a href="https://portal.desklogic.com/auth/signin" class="block px-6 py-3 border rounded-full text-white text-center">Sign in</a>
-          <a href="https://portal.desklogic.com/auth/signup" class="block px-6 py-3 bg-white  text-[var(--app-1)]" rounded-full text-center">GET STARTED FREE</a>
-        </div>
       </div>
     </div>
   </nav>
+<!-- Mobile Menu (hidden by default) -->
+<div id="mobileMenu" class="md:hidden hidden flex-col w-full bg-app-1 text-white space-y-4 p-6">
+  <a href="<?php echo esc_url(home_url('/')); ?>">Home</a>
+  <a href="<?php echo site_url('/features'); ?>">Features</a>
+  <a href="<?php echo site_url('/pricing'); ?>">Pricing</a>
+  <button id="mobileSolutionsToggle" class="flex items-center space-x-1">
+    <span>Solutions</span>
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+    </svg>
+  </button>
+  <div id="mobileSolutionsMenu" class="hidden space-y-2 ml-4">
+    <a href="<?php echo site_url('/managed-wordpress-hosting'); ?>">Managed WordPress Hosting</a>
+    <a href="<?php echo site_url('/web-design-development'); ?>">Web Design & Development</a>
+    <a href="<?php echo site_url('/search-engine-optimization'); ?>">SEO</a>
+  </div>
+  <a href="<?php echo site_url('/contact'); ?>">Connect</a>
+  <a class="block px-6 py-3 border rounded-full text-white text-center" href="https://portal.desklogic.com/auth/signin">Sign in</a>
+  <a class="block px-6 py-3 bg-white text-app-1 rounded-full text-center" href="https://portal.desklogic.com/auth/signup">Sign up</a>
+</div>

@@ -1,0 +1,54 @@
+
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.68 50.68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9bc9ff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #1e81ce;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #1e81ce;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <circle class="cls-1" cx="25.34" cy="25.34" r="20.68"/>
+      <rect class="cls-4" x="24.69" y="4.54" width="1.29" height="3.92"/>
+      <rect class="cls-4" x="11.37" y="10.05" width="1.29" height="3.92" transform="translate(-4.98 12.02) rotate(-45)"/>
+      <rect class="cls-4" x="5.85" y="23.38" width="1.29" height="3.92" transform="translate(-18.84 31.84) rotate(-90)"/>
+      <rect class="cls-4" x="11.37" y="36.7" width="1.29" height="3.92" transform="translate(-6.83 74.5) rotate(-135)"/>
+      <rect class="cls-4" x="24.69" y="42.22" width="1.29" height="3.92" transform="translate(50.68 88.36) rotate(-180)"/>
+      <rect class="cls-4" x="38.02" y="36.7" width="1.29" height="3.92" transform="translate(93.34 38.66) rotate(135)"/>
+      <rect class="cls-4" x="43.53" y="23.38" width="1.29" height="3.92" transform="translate(69.52 -18.84) rotate(90)"/>
+      <rect class="cls-4" x="38.02" y="10.05" width="1.29" height="3.92" transform="translate(19.82 -23.82) rotate(45)"/>
+      <g>
+        <path class="cls-3" d="M3.58,37.33c-1.96-3.55-3.08-7.64-3.08-11.99C.5,11.62,11.62.5,25.34.5s24.84,11.12,24.84,24.84-11.12,24.84-24.84,24.84c-7.26,0-13.79-3.11-18.33-8.08"/>
+        <rect class="cls-4" x=".35" y="36.81" width="6.5" height="1" transform="translate(-16.2 5.49) rotate(-26.38)"/>
+        <polygon class="cls-4" points="12.29 41.54 12.25 42.54 7.33 42.33 7.48 47.26 6.48 47.29 6.29 41.29 12.29 41.54"/>
+      </g>
+      <circle class="cls-2" cx="25.71" cy="24.69" r="9.87"/>
+      <g>
+        <path class="cls-4" d="M18.6,27.01v-.94c0-.21.03-.38.1-.54.06-.15.17-.29.32-.41.15-.12.35-.23.59-.34l.83-.37c.21-.09.36-.21.47-.34.11-.14.16-.31.16-.53,0-.24-.07-.42-.21-.57-.14-.14-.34-.21-.6-.21s-.46.07-.6.21-.21.34-.21.6h-.92c0-.3.06-.58.19-.82.13-.24.32-.44.58-.58.25-.14.57-.21.96-.21s.7.07.96.21c.25.14.45.32.58.55.13.23.19.49.19.77v.09c0,.37-.1.67-.31.91-.21.24-.51.45-.9.63l-.83.37c-.16.07-.27.14-.33.21-.06.07-.09.17-.09.3v.43l-.23-.25h2.71v.81h-3.41Z"/>
+        <path class="cls-4" d="M22.62,26v-1.03l1.91-2.98.72.49-1.69,2.64.08.13h3v.75h-4.02ZM25.17,27.01v-3.5h.88v3.5h-.88Z"/>
+        <path class="cls-4" d="M26.94,27.41l1.38-5.62h.93l-1.38,5.62h-.93Z"/>
+        <path class="cls-4" d="M30.34,27.01l1.83-4.02-.06-.09h-2.48v-.78h3.56v.72l-1.85,4.16h-1ZM29.63,23.69v-1.57h.77v1.57h-.77Z"/>
+      </g>
+      <line class="cls-3" x1="25.17" y1="10.91" x2="25.17" y2="14.84"/>
+      <line class="cls-3" x1="18.98" y1="31.9" x2="14.68" y2="36.2"/>
+    </g>
+  </g>
+</svg>

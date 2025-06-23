@@ -15,6 +15,10 @@ function desklogic_llc_enqueue_scripts()
 	// Tailwind CSS from CDN
 	wp_enqueue_style('tailwind', 'https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css', [], null);
 
+	// Swiper JS from CDN
+	wp_enqueue_style('swiper-css', 'https://unpkg.com/swiper/swiper-bundle.min.css');
+	wp_enqueue_script('swiper-js', 'https://unpkg.com/swiper/swiper-bundle.min.js', array('jquery'), _S_VERSION, true);
+
 
 	// Enqueue app.css from the app folder
 	wp_enqueue_style(
