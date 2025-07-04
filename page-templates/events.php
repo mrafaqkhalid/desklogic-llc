@@ -5,7 +5,7 @@ Template Name: Events
 get_header();
 ?>
 <main class="__className_128fa8" style="opacity: 1; will-change: transform;">
-<section class="hero pt-8 md:py-12">
+<section class="hero pt-8 pt-8 md:py-[10rem]">
   <div class="hero-inner">
     <div class="container max-w-7xl mx-auto px-4">
       <h1 class="font-bold  text-[42px] sm:text-[42px] md:text-[42px] lg:text-[55px] 2xl:text-[65px] leading-[1.25em] max-w-4xl">
@@ -21,10 +21,10 @@ get_header();
     </div>
   </div>
 </section>
-<section class="bg-shades-50 px-4 md:px-0">
+<section class="bg-[#e9efff] px-4 md:px-0">
   <div class="max-w-7xl container mx-auto pt-0 pb-10 md:pt-10 md:pb-40 px-4">
     <div class="illustration-holder md:mt-[60px] sm:mt-[60px] xsm:mt-[60px] aspect-w-16 aspect-h-9 mb-6">
-      <img alt="" loading="lazy" width="2031" height="665" decoding="async" data-nimg="1" class="lazy-img" srcset="https://www.desklogic.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnachi24.82ce3f87.webp&amp;w=2048&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnachi24.82ce3f87.webp&amp;w=3840&amp;q=75 2x" src="https://www.desklogic.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnachi24.82ce3f87.webp&amp;w=3840&amp;q=75" style="color: transparent;">
+<img alt="" loading="lazy" width="2031" height="665" decoding="async" data-nimg="1" class="lazy-img" srcset="https:desklogic.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnachi24.82ce3f87.webp&amp;w=2048&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnachi24.82ce3f87.webp&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fnachi24.82ce3f87.webp&amp;w=3840&amp;q=75" style="color: transparent;">
     </div>
     <div class="block-style-four">
       <div class="flex flex-wrap mx-[-12px] items-center">

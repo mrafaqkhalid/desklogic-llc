@@ -2,6 +2,9 @@ jQuery(document).ready(function ($) {
     // Toggle mobile menu visibility
     $('#mobileMenuToggle').on('click', function () {
       $('#mobileMenu').slideToggle(250);
+      // Toggle icons
+      $('#menuIcon').toggleClass('hidden');
+      $('#closeIcon').toggleClass('hidden');
     });
 
     // Toggle solutions submenu in mobile view
@@ -26,6 +29,12 @@ jQuery(document).ready(function ($) {
             $dropdown.addClass('invisible opacity-0').removeClass('visible opacity-100');
         }
     });
+
+    // sign in button hide
+    
+        $('#mobile-menu-toggle').on('click', function() {
+            $('body').toggleClass('menu-open');
+        });
 
     // 2. Close dropdown when clicking outside
     $(document).on('click', function() {

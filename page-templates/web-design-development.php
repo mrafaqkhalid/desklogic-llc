@@ -7,10 +7,11 @@ get_header();
 
 <main class="__className_128fa8" style="opacity: 1; will-change: transform;">
 <!-- Hero Section -->
-<section class="hero pt-8 md:py-12">
+<section class="hero pt-8 pt-8 md:py-[10rem]">
   <div class="hero-inner">
     <div class="container max-w-7xl mx-auto px-4">
-      <h1 class="font-bold text-[42px] sm:text-[42px] md:text-[42px] lg:text-[55px] 2xl:text-[65px] leading-[1.25em] max-w-4xl">
+      <h1 class="font-bold text-[49px] sm:text-[49px] md:text-[49px] lg:text-[62px] 2xl:text-[72px] leading-[1.25em] max-w-4xl
+">
         <span>Expert Web Development Services with Fully Managed Hosting Across the United States<br></span>
       </h1>
       <p class="text-[18px] sm:text-[18px] md:text-[19px] lg:text-[19px] 2xl:text-[22px] leading-[1.67em] mb-10 lg:mb-10 md:mb-10 sm:mb-10 xsm:mb-10">
@@ -97,7 +98,7 @@ get_header();
             <h6 class="text-xl font-semibold mb-4">Growth</h6>
             <div class="text-5xl flex items-end font-bold text-[var(--app-1)]"><sup class="text-2xl">$</sup><span>499</span><p class="text-lg font-normal text-gray-500">One Time</p></div>
             <div class="text-lg font-[500] text-gray-500 mt-2"><span>$25</span>/month afterwards</div>
-            <div class="flex items-center mt-4"><p class="text-md font-normal text-gray-500 line-through">$600</p><p class="text-lg font-bold text-[var(--app-1)] bg-app-light px-3 py-1 text-[12px] ml-2 rounded-full">SAVE 17%</p></div>
+            <div class="flex items-center mt-4"><p class="text-md font-normal text-gray-500 line-through">$600</p><p class="text-xl font-bold  text-[var(--app-1)] bg-[var(--app-light)] px-3 py-1 ml-2 rounded-full">SAVE 17%</p></div>
             <p class="mt-4 border-b pb-8 border-b-[#2f448f47]">WordPress Website | Hosting | Maintenance</p>
             <ul class="mt-8 space-y-3">
               <li class="flex justify-start items-left text-gray-700"><svg width="20" height="20" viewBox="0 0 16 16" class="bg-[var(--app-2)] p-1 rounded-full mr-4"><rect width="16" height="16" fill="none"></rect><path d="M0,9.014L1.414,7.6L5.004,11.189L14.593,1.6L16.007,3.014L5.003,14.017L0,9.014Z" fill="white"></path></svg>Up to 5 Pages</li>
@@ -120,7 +121,7 @@ get_header();
             <h6 class="text-xl font-semibold mb-4">Premium</h6>
             <div class="text-5xl flex items-end font-bold text-[var(--app-1)]"><sup class="text-2xl">$</sup><span>999</span><p class="text-lg font-normal text-gray-500">One Time</p></div>
             <div class="text-lg font-[500] text-gray-500 mt-2"><span>$49</span>/month afterwards</div>
-            <div class="flex items-center mt-4"><p class="text-md font-normal text-gray-500 line-through">$1999</p><p class="text-lg font-bold text-[var(--app-1)] bg-app-light px-3 py-1 text-[12px] ml-2 rounded-full">SAVE 50%</p></div>
+            <div class="flex items-center mt-4"><p class="text-md font-normal text-gray-500 line-through">$1999</p><p class="text-xl font-bold  text-[var(--app-1)] bg-[var(--app-light)] px-3 py-1 ml-2 rounded-full">SAVE 50%</p></div>
             <p class="mt-4 border-b pb-8 border-b-[#2f448f47]">WordPress Website | Hosting | Maintenance</p>
             <ul class="mt-8 space-y-3">
               <li class="flex justify-start items-left text-gray-700"><svg width="20" height="20" viewBox="0 0 16 16" class="bg-[var(--app-2)] p-1 rounded-full mr-4"><rect width="16" height="16" fill="none"></rect><path d="M0,9.014L1.414,7.6L5.004,11.189L14.593,1.6L16.007,3.014L5.003,14.017L0,9.014Z" fill="white"></path></svg>Up to 10 Pages</li>
@@ -144,7 +145,7 @@ get_header();
             <h6 class="text-xl font-semibold mb-4">Elite</h6>
             <div class="text-5xl flex items-end font-bold text-[var(--app-1)]"><sup class="text-2xl">$</sup><span>1499</span><p class="text-lg font-normal text-gray-500">One Time</p></div>
             <div class="text-lg font-[500] text-gray-500 mt-2"><span>$150</span>/month afterwards</div>
-            <div class="flex items-center mt-4"><p class="text-md font-normal text-gray-500 line-through">$2499</p><p class="text-lg font-bold text-[var(--app-1)] bg-app-light px-3 py-1 text-[12px] ml-2 rounded-full">SAVE 40%</p></div>
+            <div class="flex items-center mt-4"><p class="text-md font-normal text-gray-500 line-through">$2499</p><p class="text-xl font-bold  text-[var(--app-1)] bg-[var(--app-light)] px-3 py-1 ml-2 rounded-full">SAVE 40%</p></div>
             <p class="mt-4 border-b pb-8 border-b-[#2f448f47]">WordPress Website | Hosting | Maintenance</p>
             <ul class="mt-8 space-y-3">
               <li class="flex justify-start items-left text-gray-700"><svg width="20" height="20" viewBox="0 0 16 16" class="bg-[var(--app-2)] p-1 rounded-full mr-4"><rect width="16" height="16" fill="none"></rect><path d="M0,9.014L1.414,7.6L5.004,11.189L14.593,1.6L16.007,3.014L5.003,14.017L0,9.014Z" fill="white"></path></svg>Up to 15 Pages</li>
@@ -180,13 +181,9 @@ get_header();
             <div class="w-full lg:w-1/2 px-4 py-2 aos-init">
                 <div class="faq p-6 bg-white rounded-lg border border-shades-100">
                     <div class="flex justify-between items-center cursor-pointer faq-question">
-                        <h3 class="faq-title font-semibold text-[1.2rem]">What are the core benefits of professional web development services?</h3>
+                        <h3 class="faq-title font-semibold text-[1.1rem]">What are the core benefits of professional web development services?</h3>
                         <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center">
-                            <span class="text-2xl">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                                </svg>
-                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
                         </div>
                     </div>
                     <div class="faq-answer mt-4 text-gray-700 hidden text-[1.1rem]">
@@ -198,13 +195,9 @@ get_header();
             <div class="w-full lg:w-1/2 px-4 py-2 aos-init">
                 <div class="faq p-6 bg-white rounded-lg border border-shades-100">
                     <div class="flex justify-between items-center cursor-pointer faq-question">
-                        <h3 class="faq-title font-semibold text-[1.2rem]">How much do website development costs typically range?</h3>
+                        <h3 class="faq-title font-semibold text-[1.1rem]">How much do website development costs typically range?</h3>
                         <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center">
-                            <span class="text-2xl">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                                </svg>
-                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
                         </div>
                     </div>
                     <div class="faq-answer mt-4 text-gray-700 hidden text-[1.1rem]">
@@ -216,13 +209,9 @@ get_header();
             <div class="w-full lg:w-1/2 px-4 py-2 aos-init">
                 <div class="faq p-6 bg-white rounded-lg border border-shades-100">
                     <div class="flex justify-between items-center cursor-pointer faq-question">
-                        <h3 class="faq-title font-semibold text-[1.2rem]">Why should I choose a website design company over DIY platforms?</h3>
+                        <h3 class="faq-title font-semibold text-[1.1rem]">Why should I choose a website design company over DIY platforms?</h3>
                         <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center">
-                            <span class="text-2xl">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                                </svg>
-                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
                         </div>
                     </div>
                     <div class="faq-answer mt-4 text-gray-700 hidden text-[1.1rem]">
@@ -234,13 +223,9 @@ get_header();
             <div class="w-full lg:w-1/2 px-4 py-2 aos-init">
                 <div class="faq p-6 bg-white rounded-lg border border-shades-100">
                     <div class="flex justify-between items-center cursor-pointer faq-question">
-                        <h3 class="faq-title font-semibold text-[1.2rem]">What services are included in web development packages?</h3>
+                        <h3 class="faq-title font-semibold text-[1.1rem]">What services are included in web development packages?</h3>
                         <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center">
-                            <span class="text-2xl">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                                </svg>
-                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
                         </div>
                     </div>
                     <div class="faq-answer mt-4 text-gray-700 hidden text-[1.1rem]">
@@ -252,13 +237,9 @@ get_header();
             <div class="w-full lg:w-1/2 px-4 py-2 aos-init">
                 <div class="faq p-6 bg-white rounded-lg border border-shades-100">
                     <div class="flex justify-between items-center cursor-pointer faq-question">
-                        <h3 class="faq-title font-semibold text-[1.2rem]">How long does it take to complete a web development project?</h3>
+                        <h3 class="faq-title font-semibold text-[1.1rem]">How long does it take to complete a web development project?</h3>
                         <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center">
-                            <span class="text-2xl">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                                </svg>
-                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
                         </div>
                     </div>
                     <div class="faq-answer mt-4 text-gray-700 hidden text-[1.1rem]">
@@ -270,13 +251,9 @@ get_header();
             <div class="w-full lg:w-1/2 px-4 py-2 aos-init">
                 <div class="faq p-6 bg-white rounded-lg border border-shades-100">
                     <div class="flex justify-between items-center cursor-pointer faq-question">
-                        <h3 class="faq-title font-semibold text-[1.2rem]">What makes your website design company different from others?</h3>
+                        <h3 class="faq-title font-semibold text-[1.1rem]">What makes your website design company different from others?</h3>
                         <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center">
-                            <span class="text-2xl">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                                </svg>
-                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
                         </div>
                     </div>
                     <div class="faq-answer mt-4 text-gray-700 hidden text-[1.1rem]">

@@ -1,7 +1,7 @@
 <?php /* Template Name: Contact */ ?>
 <?php get_header(); ?>
 <main>
-  <section class="hero pt-8 md:py-12 mb-[6rem]">
+  <section class="hero pt-8 pt-8 md:py-[10rem]">
     <div class="hero-inner">
       <div class="container max-w-7xl mx-auto px-4">
         <h1 class="font-bold text-[42px] sm:text-[42px] md:text-[42px] lg:text-[55px] 2xl:text-[65px] leading-[1.25em] max-w-4xl">

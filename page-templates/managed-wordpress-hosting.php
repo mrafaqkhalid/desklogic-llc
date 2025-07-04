@@ -7,7 +7,7 @@ get_header();
 
 <main class="__className_128fa8" style="opacity: 1; will-change: transform;">
 <!-- Begin Hero Section -->
-<section class="hero pt-8 md:py-12">
+<section class="hero pt-8 pt-8 md:py-[10rem]">
   <div class="hero-inner">
     <div class="container max-w-7xl mx-auto px-4">
       <h1 class="font-bold  text-[42px] sm:text-[42px] md:text-[42px] lg:text-[55px] 2xl:text-[65px] leading-[1.25em] max-w-4xl">
@@ -46,39 +46,39 @@ get_header();
 <section class="bg-blue-50 py-40">
   <div class="max-w-7xl container mx-auto px-4 md:px-0">
     <div class="max-w-[900px] mx-auto mb-20">
-      <h2 class="text-4xl font-bold text-center mb-8 leading-[1.5] aos-init" data-aos="fade-up" data-aos-delay="0">Powerful & Affordable WordPress Hosting</h2>
-      <p class="text-center text-xl mb-8 aos-init" data-aos="fade-up" data-aos-delay="50">Experience a new way to WordPress. Build, launch, and manage high-performance WordPress sites through one powerful dashboard.</p>
+      <h2 class="text-[2.5rem] font-bold text-center mb-8 leading-[1.5] aos-init" data-aos="fade-up" data-aos-delay="0">Powerful & Affordable WordPress Hosting</h2>
+      <p class="text-center text-[1.5rem] mb-8 aos-init" data-aos="fade-up" data-aos-delay="50">Experience a new way to WordPress. Build, launch, and manage high-performance WordPress sites through one powerful dashboard.</p>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
       <div class="p-6 md:p-12 bg-white rounded-[20px] aos-init" data-aos="fade-up" data-aos-delay="100">
         <img alt="OneClick Development" loading="lazy" width="106" height="100" decoding="async" data-nimg="1" class="mb-8" src="https://desklogic.com/_next/static/media/one-click.7a5ad1e9.svg" style="color: transparent;">
-        <h3 class="text-xl font-semibold mb-4 ">One-click Installs</h3>
-        <p>Install Wordpress with a one click installation process. It's easy and fast.</p>
+        <h3 class="text-[1.4rem] font-semibold mb-4 ">One-click Installs</h3>
+        <p class="text-[1.1rem] " >Install Wordpress with a one click installation process. It's easy and fast.</p>
       </div>
       <div class="p-6 md:p-12 bg-white rounded-[20px] aos-init" data-aos="fade-up" data-aos-delay="100">
         <img alt="Responsive Design" loading="lazy" width="100" height="100" decoding="async" data-nimg="1" class="mb-8" src="https://desklogic.com/_next/static/media/domain.7e9b8855.svg" style="color: transparent;">
-        <h3 class="text-xl font-semibold mb-4 ">Free Domain Registeration</h3>
-        <p>Our Websites are fully responsive, ensuring they look and function perfectly on all devices, from mobile phones to desktops.</p>
+        <h3 class="text-[1.4rem] font-semibold mb-4 ">Free Domain Registeration</h3>
+        <p class="text-[1.1rem] " >Our Websites are fully responsive, ensuring they look and function perfectly on all devices, from mobile phones to desktops.</p>
       </div>
       <div class="p-6 md:p-12 bg-white rounded-[20px] aos-init" data-aos="fade-up" data-aos-delay="100">
         <img alt="SEO Optimization" loading="lazy" width="143" height="100" decoding="async" data-nimg="1" class="mb-8" src="https://desklogic.com/_next/static/media/free-ssl.6bc831c7.svg" style="color: transparent;">
-        <h3 class="text-xl font-semibold mb-4 ">Free SSL Certificate</h3>
-        <p>We build SEO into every site to ensure your business is easily found by your target audience, helping you rank higher on search engines.</p>
+        <h3 class="text-[1.4rem] font-semibold mb-4 ">Free SSL Certificate</h3>
+        <p class="text-[1.1rem] " >We build SEO into every site to ensure your business is easily found by your target audience, helping you rank higher on search engines.</p>
       </div>
       <div class="p-6 md:p-12 bg-white rounded-[20px] aos-init" data-aos="fade-up" data-aos-delay="200">
         <img alt="Responsive Design" loading="lazy" width="142" height="100" decoding="async" data-nimg="1" class="mb-8" src="https://desklogic.com/_next/static/media/syncing.51eb8c31.svg" style="color: transparent;">
-        <h3 class="text-xl font-semibold mb-4 ">Daily Backups</h3>
-        <p>Test and enhance your Website's speed with quick, effective tools for faster loading, better performance, and improved user experience.</p>
+        <h3 class="text-[1.4rem] font-semibold mb-4 ">Daily Backups</h3>
+        <p class="text-[1.1rem] " >Test and enhance your Website's speed with quick, effective tools for faster loading, better performance, and improved user experience.</p>
       </div>
       <div class="p-6 md:p-12 bg-white rounded-[20px] aos-init" data-aos="fade-up" data-aos-delay="200">
         <img alt="Managed Hosting Services" loading="lazy" width="109" height="100" decoding="async" data-nimg="1" class="mb-8" src="https://desklogic.com/_next/static/media/cache.5e4ee7a2.svg" style="color: transparent;">
-        <h3 class="text-xl font-semibold mb-4 ">Smart Cache</h3>
-        <p>Secure, fast, and reliable hosting with 24/7 support, ensuring your Website is always online and performing optimally.</p>
+        <h3 class="text-[1.4rem] font-semibold mb-4 ">Smart Cache</h3>
+        <p class="text-[1.1rem] " >Secure, fast, and reliable hosting with 24/7 support, ensuring your Website is always online and performing optimally.</p>
       </div>
       <div class="p-6 md:p-12 bg-white rounded-[20px] aos-init" data-aos="fade-up" data-aos-delay="200">
         <img alt="Responsive Design" loading="lazy" width="98" height="100" decoding="async" data-nimg="1" class="mb-8" src="https://desklogic.com/_next/static/media/maintenance.ae7cdf66.svg" style="color: transparent;">
-        <h3 class="text-xl font-semibold mb-4 ">Cpanel Control Panel</h3>
-        <p>Ongoing maintenance and support to keep your Website secure, updated, and running smoothly with regular backups and updates.</p>
+        <h3 class="text-[1.4rem] font-semibold mb-4 ">Cpanel Control Panel</h3>
+        <p class="text-[1.1rem] " >Ongoing maintenance and support to keep your Website secure, updated, and running smoothly with regular backups and updates.</p>
       </div>
     </div>
   </div>
@@ -140,7 +140,9 @@ get_header();
       <div class="xl:w-4/12 lg:w-4/12 md:w-6/12 flex w-full flex-[0_0_auto] px-[12px] max-w-full">
         <div class="card-style-eleven flex w-full mt-[85px] lg:mt-10 md:mt-10 sm:mt-10 xsm:mt-10 wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
           <div class="icon text-[var(--app-1)] flex items-center justify-center relative rounded-[50%] w-[65px] h-[65px] lg:w-[60px] lg:h-[60px] md:w-[60px] md:h-[60px] sm:w-[60px] sm:h-[60px] xsm:w-[60px] xsm:h-[60px] border-[3px] border-solid border-shades-200 before:content-[''] before:absolute before:w-[calc(100%_+_6px)] before:h-[calc(100%_+_6px)] before:top-[-3px] before:z-[-1] before:rounded-[50%] before:left-[5px] md:m-[0_auto] sm:m-[0_auto] xsm:m-[0_auto] before:bg-[var(--prime-six)]">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"><path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z"></path></svg>
+                            <span class="text-2xl">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
+                            </span>
           </div>
           <div class="text w-[calc(100%_-_65px)] pl-[30px] lg:w-[calc(100%_-_60px)] md:w-[calc(100%_-_60px)] sm:w-[calc(100%_-_60px)] xsm:w-[calc(100%_-_60px)]">
             <h4 class="mb-[10px] lg:text-[20px] md:text-[20px] sm:text-[20px] xsm:text-[20px]">Choose Migration</h4>
@@ -190,7 +192,7 @@ get_header();
         <div class="flex items-center mt-4">
           <p class="text-md font-normal text-gray-500 line-through monthly-price">$9.99</p>
           <p class="text-md font-normal text-gray-500 line-through annual-price hidden">$107.88</p>
-          <p class="text-lg font-bold text-[var(--app-1)] bg-app-light px-3 py-1 text-[12px] ml-2 rounded-full">SAVE 75%</p>
+          <p class="text-xl font-bold  text-[var(--app-1)] bg-[var(--app-light)] px-3 py-1 ml-2 rounded-full">SAVE 75%</p>
         </div>
         <p class="mt-4 border-b pb-8 border-b-[#2f448f47]">Free SSL | Automated Backups | SSD Storage</p>
         <ul class="mt-8 space-y-3">
@@ -217,7 +219,7 @@ get_header();
         <div class="flex items-center mt-4">
           <p class="text-md font-normal text-gray-500 line-through monthly-price">$11.99</p>
           <p class="text-md font-normal text-gray-500 line-through annual-price hidden">$119.88</p>
-          <p class="text-lg font-bold text-[var(--app-1)] bg-app-light px-3 py-1 text-[12px] ml-2 rounded-full">SAVE 75%</p>
+          <p class="text-xl font-bold  text-[var(--app-1)] bg-[var(--app-light)] px-3 py-1 ml-2 rounded-full">SAVE 75%</p>
         </div>
         <p class="mt-4 border-b pb-8 border-b-[#2f448f47]">Free SSL | Automated Backups | SSD Storage</p>
         <ul class="mt-8 space-y-3">
@@ -245,7 +247,7 @@ get_header();
         <div class="flex items-center mt-4">
           <p class="text-md font-normal text-gray-500 line-through monthly-price">$14.99</p>
           <p class="text-md font-normal text-gray-500 line-through annual-price hidden">$167.88</p>
-          <p class="text-lg font-bold text-[var(--app-1)] bg-app-light px-3 py-1 text-[12px] ml-2 rounded-full">SAVE 75%</p>
+          <p class="text-xl font-bold  text-[var(--app-1)] bg-[var(--app-light)] px-3 py-1 ml-2 rounded-full">SAVE 75%</p>
         </div>
         <p class="mt-4 border-b pb-8 border-b-[#2f448f47]">Free SSL | Automated Backups | SSD Storage</p>
         <ul class="mt-8 space-y-3">
@@ -278,12 +280,10 @@ get_header();
       <div class="w-full lg:w-1/2 px-4 py-2 aos-init" data-aos="fade-up" data-aos-delay="100">
         <div class="faq p-6 bg-white rounded-lg border border-shades-100">
           <div class="flex justify-between items-center cursor-pointer faq-question">
-            <h3 class="faq-title font-semibold" style="font-size:1.2rem;">What are the core benefits of professional OneClick development services?</h3>
+            <h3 class="faq-title font-semibold text-[1.1rem]" >What are the core benefits of professional OneClick development services?</h3>
             <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center" style="font-size:1.4rem;">
               <span class="text-2xl">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                </svg>
+ <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
               </span>
             </div>
           </div>
@@ -296,12 +296,10 @@ get_header();
       <div class="w-full lg:w-1/2 px-4 py-2 aos-init" data-aos="fade-up" data-aos-delay="150">
         <div class="faq p-6 bg-white rounded-lg border border-shades-100">
           <div class="flex justify-between items-center cursor-pointer faq-question">
-            <h3 class="faq-title font-semibold" style="font-size:1.2rem;">How much do Website development costs typically range?</h3>
+            <h3 class="faq-title font-semibold text-[1.1rem]" >How much do Website development costs typically range?</h3>
             <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center" style="font-size:1.4rem;">
               <span class="text-2xl">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                </svg>
+ <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
               </span>
             </div>
           </div>
@@ -314,12 +312,10 @@ get_header();
       <div class="w-full lg:w-1/2 px-4 py-2 aos-init" data-aos="fade-up" data-aos-delay="200">
         <div class="faq p-6 bg-white rounded-lg border border-shades-100">
           <div class="flex justify-between items-center cursor-pointer faq-question">
-            <h3 class="faq-title font-semibold" style="font-size:1.2rem;">Why should I choose a Website design company over DIY platforms?</h3>
+            <h3 class="faq-title font-semibold text-[1.1rem]" >Why should I choose a Website design company over DIY platforms?</h3>
             <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center" style="font-size:1.4rem;">
               <span class="text-2xl">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                </svg>
+ <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
               </span>
             </div>
           </div>
@@ -332,12 +328,10 @@ get_header();
       <div class="w-full lg:w-1/2 px-4 py-2 aos-init" data-aos="fade-up" data-aos-delay="250">
         <div class="faq p-6 bg-white rounded-lg border border-shades-100">
           <div class="flex justify-between items-center cursor-pointer faq-question">
-            <h3 class="faq-title font-semibold" style="font-size:1.2rem;">What services are included in OneClick development packages?</h3>
+            <h3 class="faq-title font-semibold text-[1.1rem]" >What services are included in OneClick development packages?</h3>
             <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center" style="font-size:1.4rem;">
               <span class="text-2xl">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                </svg>
+ <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
               </span>
             </div>
           </div>
@@ -350,12 +344,10 @@ get_header();
       <div class="w-full lg:w-1/2 px-4 py-2 aos-init" data-aos="fade-up" data-aos-delay="300">
         <div class="faq p-6 bg-white rounded-lg border border-shades-100">
           <div class="flex justify-between items-center cursor-pointer faq-question">
-            <h3 class="faq-title font-semibold" style="font-size:1.2rem;">How long does it take to complete a OneClick development project?</h3>
+            <h3 class="faq-title font-semibold text-[1.1rem]" >How long does it take to complete a OneClick development project?</h3>
             <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center" style="font-size:1.4rem;">
               <span class="text-2xl">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                </svg>
+ <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
               </span>
             </div>
           </div>
@@ -368,12 +360,10 @@ get_header();
       <div class="w-full lg:w-1/2 px-4 py-2 aos-init" data-aos="fade-up" data-aos-delay="350">
         <div class="faq p-6 bg-white rounded-lg border border-shades-100">
           <div class="flex justify-between items-center cursor-pointer faq-question">
-            <h3 class="faq-title font-semibold" style="font-size:1.2rem;">What makes your Website design company different from others?</h3>
+            <h3 class="faq-title font-semibold text-[1.1rem]" >What makes your Website design company different from others?</h3>
             <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center" style="font-size:1.4rem;">
               <span class="text-2xl">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                </svg>
+ <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
               </span>
             </div>
           </div>

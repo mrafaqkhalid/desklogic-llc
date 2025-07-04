@@ -6,7 +6,7 @@ get_header();
 ?>
 <main class="__className_128fa8" style="opacity: 1; will-change: transform; font-size: 1.1rem;">
   <!-- Hero Section -->
-  <section class="hero pt-8 md:py-12">
+  <section class="hero pt-8 pt-8 md:py-[10rem]">
     <div class="hero-inner">
       <div class="container max-w-7xl mx-auto px-4">
         <h1 class="font-bold text-[2.95rem] sm:text-[2.95rem] md:text-[2.95rem] lg:text-[3.65rem] 2xl:text-[4.2rem] leading-[1.25em] max-w-4xl">
@@ -16,7 +16,7 @@ get_header();
         <div class="banner-list mb-10">
           <ul class="list-none">
           <li class="flex items-center text-[18px] sm:text-[18px] md:text-[19px] lg:text-[19px] 2xl:text-[22px] leading-[1.67em] mb-2"><svg width="24" height="24" viewBox="0 0 16 16" class="bg-app-2 p-1 rounded-full mr-4"><rect width="16" height="16" fill="none"></rect><path d="M0,9.014L1.414,7.6L5.004,11.189L14.593,1.6L16.007,3.014L5.003,14.017L0,9.014Z" fill="white"></path></svg>Increased Visibility</li>
-            <li class="flex items-center text-[1.325rem] sm:text-[1.325rem] md:text-[1.3875rem] lg:text-[1.3875rem] 2xl:text-[1.575rem] leading-[1.67em] mb-2"><svg width="24" height="24" viewBox="0 0 16 16" class="bg-app-2 p-1 rounded-full mr-4"><rect width="16" height="16" fill="none"></rect><path d="M0,9.014L1.414,7.6L5.004,11.189L14.593,1.6L16.007,3.014L5.003,14.017L0,9.014Z" fill="white"></path></svg>>Cost Effective Marketing</li>
+            <li class="flex items-center text-[1.325rem] sm:text-[1.325rem] md:text-[1.3875rem] lg:text-[1.3875rem] 2xl:text-[1.575rem] leading-[1.67em] mb-2"><svg width="24" height="24" viewBox="0 0 16 16" class="bg-app-2 p-1 rounded-full mr-4"><rect width="16" height="16" fill="none"></rect><path d="M0,9.014L1.414,7.6L5.004,11.189L14.593,1.6L16.007,3.014L5.003,14.017L0,9.014Z" fill="white"></path></svg>Cost Effective Marketing</li>
             <li class="flex items-center text-[1.325rem] sm:text-[1.325rem] md:text-[1.3875rem] lg:text-[1.3875rem] 2xl:text-[1.575rem] leading-[1.67em] mb-2"><svg width="24" height="24" viewBox="0 0 16 16" class="bg-app-2 p-1 rounded-full mr-4"><rect width="16" height="16" fill="none"></rect><path d="M0,9.014L1.414,7.6L5.004,11.189L14.593,1.6L16.007,3.014L5.003,14.017L0,9.014Z" fill="white"></path></svg>Competitor Analysis</li>
           </ul>
         </div>
@@ -32,7 +32,7 @@ get_header();
         <p class="text-center text-[1.3rem] mb-8">SEO is a cost-effective long-term strategy that delivers sustained results, unlike paid advertising which stops as soon as the budget runs out. In today's competitive digital landscape, investing in SEO can give you an edge over competitors!</p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
-      <div class="p-6 md:p-12 bg-white rounded-[20px] shadow-md"><h3 class="text-[1.3rem] font-semibold mb-4 text-gray-800">Conduct an SEO Audit</h3><p class="text-gray-600 text-[1.1rem]">Before implementing any SEO strategy, it’s essential to perform an audit of your current website. This helps identify technical issues, gaps in content, or areas that need improvement.</p></div>
+      <div class="p-6 md:p-12 bg-white rounded-[20px] shadow-md"><h3 class="text-[1.3rem] font-semibold mb-4 text-gray-800">Conduct an SEO Audit</h3><p class="text-gray-600 text-[1.1rem]">Before implementing any SEO strategy, it's essential to perform an audit of your current website. This helps identify technical issues, gaps in content, or areas that need improvement.</p></div>
         <div class="p-6 md:p-12 bg-white rounded-[20px] shadow-md"><h3 class="text-[1.3rem] font-semibold mb-4 text-gray-8800">Keyword Research</h3><p class="text-gray-600 text-[1.1rem]">Identifying the right keywords is crucial to ensure you're targeting the terms your audience is searching for. Use keyword research tools (e.g., Google Keyword Planner, SEMrush, Ahrefs) to find high-volume, low-competition</p></div>
         <div class="p-6 md:p-12 bg-white rounded-[20px] shadow-md"><h3 class="text-[1.3rem] font-semibold mb-4 text-gray-800">Optimize On-Page SEO</h3><p class="text-gray-600 text-[1.1rem]">On-page SEO involves optimizing individual web pages, including title tags, meta descriptions, content, and URLs, to improve search engine rankings and attract more organic traffic.</p></div>
         <div class="p-6 md:p-12 bg-white rounded-[20px] shadow-md"><h3 class="text-[1.3rem] font-semibold mb-4 text-gray-800">Technical SEO</h3><p class="text-gray-600 text-[1.1rem]">On-page SEO involves optimizing individual web pages, including title tags, meta descriptions, content, and URLs, to improve search engine rankings and attract more organic traffic.</p></div>
@@ -170,11 +170,7 @@ get_header();
             <div class="flex justify-between items-center cursor-pointer faq-question">
               <h3 class="faq-title font-semibold text-[1.1rem]">Why should I hire a SEO Expert?</h3>
               <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center">
-                <span class="text-2xl">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                  </svg>
-                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
               </div>
             </div>
             <div class="faq-answer mt-4 text-gray-700 hidden text-[1rem]">
@@ -188,11 +184,7 @@ get_header();
             <div class="flex justify-between items-center cursor-pointer faq-question">
               <h3 class="faq-title font-semibold text-[1.1rem]">How long does it take to see results from SEO?</h3>
               <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center">
-                <span class="text-2xl">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                  </svg>
-                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
               </div>
             </div>
             <div class="faq-answer mt-4 text-gray-700 hidden text-[1rem]">
@@ -206,11 +198,7 @@ get_header();
             <div class="flex justify-between items-center cursor-pointer faq-question">
               <h3 class="faq-title font-semibold text-[1.1rem]">What is the difference between on-page and off-page SEO?</h3>
               <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center">
-                <span class="text-2xl">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                  </svg>
-                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
               </div>
             </div>
             <div class="faq-answer mt-4 text-gray-700 hidden text-[1rem]">
@@ -224,11 +212,7 @@ get_header();
             <div class="flex justify-between items-center cursor-pointer faq-question">
               <h3 class="faq-title font-semibold text-[1.1rem]">Why is mobile optimization important for SEO?</h3>
               <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center">
-                <span class="text-2xl">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                  </svg>
-                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
               </div>
             </div>
             <div class="faq-answer mt-4 text-gray-700 hidden text-[1rem]">
@@ -242,11 +226,7 @@ get_header();
             <div class="flex justify-between items-center cursor-pointer faq-question">
               <h3 class="faq-title font-semibold text-[1.1rem]">What are keywords, and why are they important for SEO?</h3>
               <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center">
-                <span class="text-2xl">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                  </svg>
-                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
               </div>
             </div>
             <div class="faq-answer mt-4 text-gray-700 hidden text-[1rem]">
@@ -260,11 +240,7 @@ get_header();
             <div class="flex justify-between items-center cursor-pointer faq-question">
               <h3 class="faq-title font-semibold text-[1.1rem]">How SEO Audits Reveal Your Chances of Ranking on Google?</h3>
               <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center">
-                <span class="text-2xl">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                  </svg>
-                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
               </div>
             </div>
             <div class="faq-answer mt-4 text-gray-700 hidden text-[1rem]">
@@ -278,11 +254,7 @@ get_header();
             <div class="flex justify-between items-center cursor-pointer faq-question">
               <h3 class="faq-title font-semibold text-[1.1rem]">What is technical SEO, and how does it affect my website?</h3>
               <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center">
-                <span class="text-2xl">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                  </svg>
-                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
               </div>
             </div>
             <div class="faq-answer mt-4 text-gray-700 hidden text-[1rem]">
@@ -296,11 +268,7 @@ get_header();
             <div class="flex justify-between items-center cursor-pointer faq-question">
               <h3 class="faq-title font-semibold text-[1.1rem]">What is a backlink, and why do they matter for SEO?</h3>
               <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center">
-                <span class="text-2xl">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                  </svg>
-                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
               </div>
             </div>
             <div class="faq-answer mt-4 text-gray-700 hidden text-[1rem]">
@@ -314,11 +282,7 @@ get_header();
             <div class="flex justify-between items-center cursor-pointer faq-question">
               <h3 class="faq-title font-semibold text-[1.1rem]">What is local SEO, and how can it benefit my business?</h3>
               <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center">
-                <span class="text-2xl">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                  </svg>
-                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
               </div>
             </div>
             <div class="faq-answer mt-4 text-gray-700 hidden text-[1rem]">
@@ -332,11 +296,7 @@ get_header();
             <div class="flex justify-between items-center cursor-pointer faq-question">
               <h3 class="faq-title font-semibold text-[1.1rem]">How does content quality impact SEO?</h3>
               <div class="faq-toggle bg-[#d3e0ff] rounded-full w-8 h-8 min-h-8 min-w-8 flex items-center justify-center">
-                <span class="text-2xl">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] w-[1.5rem] h-[1.5rem]">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" />
-                  </svg>
-                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 transition-transform duration-200 text-[var(--app-1)] opacity-90 w-[1.3rem] h-[1.3rem] "> <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m6-6H6" /> </svg>
               </div>
             </div>
             <div class="faq-answer mt-4 text-gray-700 hidden text-[1rem]">
