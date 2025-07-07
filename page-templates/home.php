@@ -500,7 +500,7 @@ get_header();
                     with 30 days free trial and unlimited inspections.</p>
             </div>
             <div class="flex max-w-[1300px] mx-auto flex-wrap justify-center -px-4">
-                <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8 aos-init" data-aos="fade-up" data-aos-delay="200">
+                <div class="w-full lg:w-1/3 px-4 mb-8 aos-init" data-aos="fade-up" data-aos-delay="200">
                     <div
                         class="bg-white text-gray-800 relative z-40 overflow-hidden rounded-[20px] border hover:shadow-lg boreder-shades-100 p-6 md:p-12 md:pt-20 text-left transform transition duration-500 hover:scale-105 ">
                         <h6 class="text-xl font-semibold mb-4">Solo Inspector</h6>
@@ -558,7 +558,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8 aos-init" data-aos="fade-up" data-aos-delay="300">
+                <div class="w-full lg:w-1/3 px-4 mb-8 aos-init" data-aos="fade-up" data-aos-delay="300">
                     <div
                         class="bg-white text-gray-800 relative z-40 overflow-hidden rounded-[20px] border hover:shadow-lg boreder-shades-100 p-6 md:p-12 md:pt-20 text-left transform transition duration-500 hover:scale-105   border-[var(--app-2)]">
                         <h6 class="text-xl font-semibold mb-4">Team Inspect</h6>
@@ -619,7 +619,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8 aos-init" data-aos="fade-up" data-aos-delay="400">
+                <div class="w-full lg:w-1/3 px-4 mb-8 aos-init" data-aos="fade-up" data-aos-delay="400">
                     <div
                         class="bg-white text-gray-800 relative z-40 overflow-hidden rounded-[20px] border hover:shadow-lg boreder-shades-100 p-6 md:p-12 md:pt-20 text-left transform transition duration-500 hover:scale-105 ">
                         <h6 class="text-xl font-semibold mb-4">Unlimited Access</h6>

@@ -20,7 +20,9 @@ get_header();
             <li class="flex items-center text-[1.325rem] sm:text-[1.325rem] md:text-[1.3875rem] lg:text-[1.3875rem] 2xl:text-[1.575rem] leading-[1.67em] mb-2"><svg width="24" height="24" viewBox="0 0 16 16" class="bg-app-2 p-1 rounded-full mr-4"><rect width="16" height="16" fill="none"></rect><path d="M0,9.014L1.414,7.6L5.004,11.189L14.593,1.6L16.007,3.014L5.003,14.017L0,9.014Z" fill="white"></path></svg>Competitor Analysis</li>
           </ul>
         </div>
-        <a class="cursor-pointer inline-flex items-center px-8 py-4 text-white bg-[var(--app-1)] uppercase hover:bg-[var(--app-2)] transition duration-300 ease-in-out rounded-full text-[1rem]" href="https://portal.desklogic.com/auth/signup">Lets Talk</a>
+        <div class="w-full">
+         <a data-aos="fade-in" data-aos-delay="400" href="https://portal.desklogic.com/auth/signup" class="aos-init max-[768px]:mx-auto block max-w-max"><span class=" cursor-pointer inline-flex items-center px-8 py-5 mt-12 text-white bg-[var(--app-1)] uppercase hover:bg-[var(--app-2)] duration-300 ease-in-out rounded-full">Lets Talk</span></a>
+     </div>
       </div>
     </div>
   </section>
@@ -48,12 +50,12 @@ get_header();
   <section class="bg-blue-50 pt-40">
     <div class="container mx-auto z-20 relative pb-12">
       <div class="text-center mb-20 max-w-[900px] mx-auto leading-[1.5]">
-        <h2 class="font-bold text-[4.45rem] leading-[1.35em] tracking-[-2px] 2xl:text-[3.75rem] lg:text-[3rem] md:text-[2.2rem] md:tracking-[-0.5px] sm:text-[2.2rem] mx-auto">Boost Your SEO with Our Cost-Effective Plans Designed to Deliver Results</h2>
+        <h2 class="font-bold text-[2.5rem] leading-[1.35em] tracking-[-2px] 2xl:text-[3.75rem] lg:text-[3rem] md:text-[2.2rem] md:tracking-[-0.5px] sm:text-[2.2rem] mx-auto">Boost Your SEO with Our Cost-Effective Plans Designed to Deliver Results</h2>
         <p class="text-[1.4rem] mt-4">Boost your website's SEO with our affordable packages, combining expert web design and development to enhance rankings and performance.</p>
       </div>
       <div class="flex max-w-[1300px] mx-auto flex-wrap justify-center -mx-4">
         <!-- Basic On-page Plan -->
-        <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
+        <div class="w-full lg:w-1/3 px-4 mb-8">
           <div class="bg-white text-gray-800 relative z-40 overflow-hidden rounded-[20px] border hover:shadow-lg border-shades-100 p-6 md:p-12 md:pt-20 text-left transform transition duration-500 hover:scale-105">
             <h6 class="text-[1.1rem] font-semibold mb-4">Basic On-page</h6>
             <div class="text-5xl flex items-end font-bold text-[var(--app-1)]"><sup class="text-2xl">$</sup><span>199</span><p class="text-[1rem] font-normal text-gray-500 ml-2">One Time</p></div>
@@ -85,7 +87,7 @@ get_header();
           </div>
         </div>
         <!-- Comprehensive SEO Plan -->
-        <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
+        <div class="w-full lg:w-1/3 px-4 mb-8">
           <div class="bg-white text-gray-800 relative z-40 overflow-hidden rounded-[20px] border hover:shadow-lg border-shades-100 p-6 md:p-12 md:pt-20 text-left transform transition duration-500 hover:scale-105">
             <h6 class="text-[1.1rem] font-semibold mb-4">Comprehensive SEO</h6>
             <div class="text-5xl flex items-end font-bold text-[var(--app-1)]"><sup class="text-2xl">$</sup><span>349</span><p class="text-[1rem] font-normal text-gray-500 ml-2"></p></div>
@@ -116,7 +118,7 @@ get_header();
           </div>
         </div>
         <!-- Advanced SEO Plan -->
-        <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
+        <div class="w-full lg:w-1/3 px-4 mb-8">
           <div class="bg-white text-gray-800 relative z-40 overflow-hidden rounded-[20px] border hover:shadow-lg border-shades-100 p-6 md:p-12 md:pt-20 text-left transform transition duration-500 hover:scale-105 border-[var(--app-2)]">
             <h6 class="text-[1.1rem] font-semibold mb-4">Advanced SEO</h6>
             <div class="text-5xl flex items-end font-bold text-[var(--app-1)]"><sup class="text-2xl">$</sup><span>499</span><p class="text-[1rem] font-normal text-gray-500 ml-2">One Time</p></div>

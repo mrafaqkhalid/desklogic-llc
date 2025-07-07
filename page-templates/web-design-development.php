@@ -36,7 +36,10 @@ get_header();
           </li>
         </ul>
       </div>
-      <a class="cursor-pointer inline-flex items-center px-8 py-4 text-white bg-[var(--app-1)] uppercase hover:bg-[var(--app-2)] transition duration-300 ease-in-out rounded-full" href="https://portal.desklogic.com/auth/signup">Lets Talk</a>
+      <div class="w-full">
+         <a data-aos="fade-in" data-aos-delay="400" href="https://portal.desklogic.com/auth/signup" class="aos-init max-[768px]:mx-auto block max-w-max"><span class=" cursor-pointer inline-flex items-center px-8 py-5 mt-12 text-white bg-[var(--app-1)] uppercase hover:bg-[var(--app-2)] duration-300 ease-in-out rounded-full">Lets Talk</span></a>
+     </div>
+
     </div>
   </div>
 </section>
@@ -93,7 +96,7 @@ get_header();
       </div>
       <div class="flex max-w-[1300px] mx-auto flex-wrap justify-center -px-4">
         <!-- Growth Plan -->
-        <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
+        <div class="w-full lg:w-1/3 px-4 mb-8">
           <div class="bg-white text-gray-800 relative z-40 overflow-hidden rounded-[20px] border hover:shadow-lg border-shades-100 p-6 md:p-12 md:pt-20 text-left transform transition duration-500 hover:scale-105 ">
             <h6 class="text-xl font-semibold mb-4">Growth</h6>
             <div class="text-5xl flex items-end font-bold text-[var(--app-1)]"><sup class="text-2xl">$</sup><span>499</span><p class="text-lg font-normal text-gray-500">One Time</p></div>
@@ -116,7 +119,7 @@ get_header();
           </div>
         </div>
         <!-- Premium Plan -->
-        <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
+        <div class="w-full lg:w-1/3 px-4 mb-8">
           <div class="bg-white text-gray-800 relative z-40 overflow-hidden rounded-[20px] border hover:shadow-lg border-shades-100 p-6 md:p-12 md:pt-20 text-left transform transition duration-500 hover:scale-105 border-[var(--app-2)]">
             <h6 class="text-xl font-semibold mb-4">Premium</h6>
             <div class="text-5xl flex items-end font-bold text-[var(--app-1)]"><sup class="text-2xl">$</sup><span>999</span><p class="text-lg font-normal text-gray-500">One Time</p></div>
@@ -140,7 +143,7 @@ get_header();
           </div>
         </div>
         <!-- Elite Plan -->
-        <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8">
+        <div class="w-full lg:w-1/3 px-4 mb-8">
           <div class="bg-white text-gray-800 relative z-40 overflow-hidden rounded-[20px] border hover:shadow-lg border-shades-100 p-6 md:p-12 md:pt-20 text-left transform transition duration-500 hover:scale-105 ">
             <h6 class="text-xl font-semibold mb-4">Elite</h6>
             <div class="text-5xl flex items-end font-bold text-[var(--app-1)]"><sup class="text-2xl">$</sup><span>1499</span><p class="text-lg font-normal text-gray-500">One Time</p></div>

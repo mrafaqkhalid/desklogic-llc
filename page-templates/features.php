@@ -28,7 +28,10 @@ get_header();
             </li>
           </ul>
         </div>
-        <a class="cursor-pointer inline-flex items-center px-8 py-4 text-white bg-[var(--app-1)] uppercase hover:bg-[var(--app-2)] transition duration-300 ease-in-out rounded-full" href="https://portal.desklogic.com/auth/signup">Start Your Free Trial</a>
+        <div class="w-full">
+        <a data-aos="fade-in" data-aos-delay="400" href="https://portal.desklogic.com/auth/signup" class="aos-init max-[768px]:mx-auto block max-w-max"><span class=" cursor-pointer inline-flex items-center px-8 py-5 mt-12 text-white bg-[var(--app-1)] uppercase hover:bg-[var(--app-2)] duration-300 ease-in-out rounded-full">Start Your Free Trial</span></a>
+
+        </div>
       </div>
     </div>
   </section>
@@ -111,7 +114,7 @@ get_header();
             <p class="text-2xl mt-4" data-aos="fade-up" data-aos-delay="100">Affordable plans with 30 days free trial and unlimited inspections.</p>
         </div>
         <div class="flex max-w-[1300px] mx-auto flex-wrap justify-center -px-4">
-            <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8" data-aos="fade-up" data-aos-delay="200">
+            <div class="w-full lg:w-1/3 px-4 mb-8" data-aos="fade-up" data-aos-delay="200">
                 <div class="bg-white text-gray-800 relative z-40 overflow-hidden rounded-[20px] border hover:shadow-lg boreder-shades-100 p-6 md:p-12 md:pt-20 text-left transform transition duration-500 hover:scale-105 ">
                     <h6 class="text-xl font-semibold mb-4">Solo Inspector</h6>
                     <div class="text-5xl flex items-end font-bold text-[var(--app-1)]"><sup class="text-2xl">$</sup><span>69</span>
@@ -157,7 +160,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8" data-aos="fade-up" data-aos-delay="300">
+            <div class="w-full lg:w-1/3 px-4 mb-8" data-aos="fade-up" data-aos-delay="300">
                 <div class="bg-white text-gray-800 relative z-40 overflow-hidden rounded-[20px] border hover:shadow-lg boreder-shades-100 p-6 md:p-12 md:pt-20 text-left transform transition duration-500 hover:scale-105   border-app-2">
                     <h6 class="text-xl font-semibold mb-4">Team Inspect</h6>
                     <div class="text-5xl flex items-end font-bold text-[var(--app-1)]"><sup class="text-2xl">$</sup><span>99</span>
@@ -204,7 +207,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8" data-aos="fade-up" data-aos-delay="400">
+            <div class="w-full lg:w-1/3 px-4 mb-8" data-aos="fade-up" data-aos-delay="400">
                 <div class="bg-white text-gray-800 relative z-40 overflow-hidden rounded-[20px] border hover:shadow-lg boreder-shades-100 p-6 md:p-12 md:pt-20 text-left transform transition duration-500 hover:scale-105 ">
                     <h6 class="text-xl font-semibold mb-4">Unlimited Access</h6>
                     <div class="text-5xl flex items-end font-bold text-[var(--app-1)]"><sup class="text-2xl">$</sup><span>199</span>

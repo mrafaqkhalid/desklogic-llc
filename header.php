@@ -68,7 +68,7 @@
         <!-- Desktop Navigation -->
         <div class="col-span-6 hidden min-[992px]:flex justify-center items-center max-[1260px]:ml-[3rem]">
           <ul class="flex space-x-6 flex-nowrap">
-            <li class="text-lg font-semibold whitespace-nowrap"><a href="<?php echo esc_url(home_url('/')); ?>" class="nav-link  text-gray-700 hover:text-gray-900">Home</a></li>
+            <li class="text-lg font-semibold whitespace-nowrap"><a href="<?php echo site_url('/home/'); ?>" class="nav-link  text-gray-700 hover:text-gray-900">Home</a></li>
             <li class="text-lg font-semibold whitespace-nowrap"><a href="<?php echo site_url('/features'); ?>" class="nav-link text-gray-700 hover:text-gray-900">Features</a></li>
             <li class="text-lg font-semibold whitespace-nowrap"><a href="<?php echo site_url('/pricing'); ?>" class="nav-link text-gray-700 hover:text-gray-900">Pricing</a></li>
             <li class="relative group text-lg font-semibold whitespace-nowrap">
@@ -152,7 +152,7 @@
 <div id="mobileMenu" class="md:hidden hidden w-full bg-[var(--app-1)] text-white space-y-4 p-6">
   <div class="flex flex-col justify-center items-center py-6 px-4 space-y-6 min-h-[calc(100vh-72px)] text-[1.1rem] opacity-90">
 
-    <a href="<?php echo esc_url(home_url('/')); ?>">Home</a>
+    <a href="<?php echo site_url('/home/'); ?>">Home</a>
     <a href="<?php echo site_url('/features'); ?>">Features</a>
     <a href="<?php echo site_url('/pricing'); ?>">Pricing</a>
 
@@ -176,7 +176,7 @@
 
     <div class="space-y-4">
       <a class="block px-6 py-3 rounded-full text-white text-center bg-[var(--app-2)]" href="https://portal.desklogic.com/auth/signin">Sign in</a>
-      <a class="block px-6 py-3 bg-white text-[var(--app-1)] rounded-full text-center" href="https://portal.desklogic.com/auth/signup">Sign up</a>
+      <a class="block px-6 py-3 bg-white text-[var(--app-1)] rounded-full text-center" href="https://portal.desklogic.com/auth/signup">Get Started Free</a>
     </div>
     
   </div>

@@ -26,7 +26,9 @@
             </li>
           </ul>
         </div>
-        <a class="cursor-pointer inline-flex items-center px-8 py-4 text-white bg-[var(--app-1)] uppercase hover:bg-[var(--app-2)] transition duration-300 ease-in-out rounded-full" href="https://portal.desklogic.com/auth/signup">Start Your Free Trial</a>
+        <div class="w-full">
+         <a data-aos="fade-in" data-aos-delay="400" href="https://portal.desklogic.com/auth/signup" class="aos-init max-[768px]:mx-auto block max-w-max"><span class=" cursor-pointer inline-flex items-center px-8 py-5 mt-12 text-white bg-[var(--app-1)] uppercase hover:bg-[var(--app-2)] duration-300 ease-in-out rounded-full">Start Your Free Trial</span></a>
+     </div>
       </div>
     </div>
   </section>

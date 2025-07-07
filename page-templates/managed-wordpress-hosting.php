@@ -36,7 +36,9 @@ get_header();
           </li>
         </ul>
       </div>
-      <a class="cursor-pointer inline-flex items-center px-8 py-4 text-white bg-[var(--app-1)] uppercase hover:bg-[var(--app-2)] transition duration-300 ease-in-out rounded-full" href="https://portal.desklogic.com/auth/signup">Register Now</a>
+      <div class="w-full">
+<a data-aos="fade-in" data-aos-delay="400" href="https://portal.desklogic.com/auth/signup" class="aos-init max-[768px]:mx-auto block max-w-max"><span class=" cursor-pointer inline-flex items-center px-8 py-5 mt-12 text-white bg-[var(--app-1)] uppercase hover:bg-[var(--app-2)] duration-300 ease-in-out rounded-full">Register Now</span></a>
+     </div>
     </div>
   </div>
 </section>
@@ -49,7 +51,7 @@ get_header();
       <h2 class="text-[2.5rem] font-bold text-center mb-8 leading-[1.5] aos-init" data-aos="fade-up" data-aos-delay="0">Powerful & Affordable WordPress Hosting</h2>
       <p class="text-center text-[1.5rem] mb-8 aos-init" data-aos="fade-up" data-aos-delay="50">Experience a new way to WordPress. Build, launch, and manage high-performance WordPress sites through one powerful dashboard.</p>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <div class="p-6 md:p-12 bg-white rounded-[20px] aos-init" data-aos="fade-up" data-aos-delay="100">
         <img alt="OneClick Development" loading="lazy" width="106" height="100" decoding="async" data-nimg="1" class="mb-8" src="https://desklogic.com/_next/static/media/one-click.7a5ad1e9.svg" style="color: transparent;">
         <h3 class="text-[1.4rem] font-semibold mb-4 ">One-click Installs</h3>

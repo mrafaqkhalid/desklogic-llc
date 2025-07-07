@@ -13,8 +13,8 @@
 
 <footer class="w-full" style=" ">
     <div class="py-7 bg-[var(--app-1)] items-center justify-center flex-col lg:justify-between lg:flex-row sm:flex">
-        <nav class="w-full mx-auto max-w-7xl px-6 lg:px-8 list-none flex items-center justify-between flex-col gap-3 md:gap-0 md:flex-row">
-            <li class="mt-3 md:mt-0 aos-init aos-animate" data-aos="fade-up">
+        <nav class="w-full mx-auto max-w-7xl px-6 lg:px-8 list-none flex items-center justify-between max-[992px]:flex-col gap-3 md:gap-0 min-[992px]:flex-row">
+            <li class="mt-3 md:mt-0 aos-init aos-animate max-[992px]:py-[0.5rem]" data-aos="fade-up">
                 <a class="text-white cursor-pointer hover:text-gray-200 flex items-center justify-start" href="tel:+1618722-9189">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 mr-3">
                         <path d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"></path>
@@ -22,7 +22,7 @@
                     +1 (618) 722-9189
                 </a>
             </li>
-            <li class="mt-3 md:mt-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <li class="mt-3 md:mt-0 aos-init aos-animate max-[992px]:py-[0.5rem]" data-aos="fade-up" data-aos-delay="100">
                 <a class="text-white cursor-pointer hover:text-gray-200 flex items-center justify-start" href="mailto:clients@desklogic.com">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 mr-3 ">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"></path>
@@ -30,7 +30,7 @@
                     clients@desklogic.com
                 </a>
             </li>
-            <li class="mt-3 md:mt-0 text-white hidden md:block aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <li class="mt-3 md:mt-0 text-white  md:block aos-init aos-animate max-[992px]:py-[0.5rem]" data-aos="fade-up" data-aos-delay="200">
                 <a class="flex items-center justify-start cursor-pointer hover:text-gray-200" href="">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 mr-3">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"></path>
@@ -39,7 +39,7 @@
                     263 Lakeview Dr. Farmington, MO 63640
                 </a>
             </li>
-            <li data-aos="fade-up " data-aos-delay="300" class="mt-4 md:mt-0 aos-init aos-animate">
+            <li data-aos="fade-up " data-aos-delay="300" class="mt-4 md:mt-0 aos-init aos-animate max-[992px]:py-[0.5rem]">
                 <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>">
                     <span class="cursor-pointer min-w-[120px] inline-flex items-center px-8 py-3 text-white bg-[var(--app-2)] uppercase hover:bg-gray-800 transition duration-300 ease-in-out rounded-full">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6 mr-2">
@@ -52,16 +52,16 @@
         </nav>
     </div>
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
-        <div class="grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-5 gap-4 lg:gap-8 py-14 max-w-xs mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-full">
-            <div class="col-span-full mb-10 lg:col-span-2 lg:mb-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
-                <a class="flex justify-center lg:justify-start" href="/">
+        <div class="footer__main flex flex-col lg:flex-row gap-4 lg:gap-8 py-14 max-w-xs mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-full">
+            <div class="footer__col footer__col--brand w-full lg:w-2/5 mb-10 lg:mb-0 flex flex-col items-center lg:items-start aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+                <a class="footer__logo flex justify-center lg:justify-start" href="/">
                     <img alt="Desklogic LLC" loading="lazy" width="178" height="30" decoding="async" data-nimg="1" class="img-fluid" src="https://www.desklogic.com/_next/static/media/logo.0257260f.svg" style="color: transparent;">
                 </a>
-                <p class="py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">
+                <p class="footer__desc py-8 text-sm text-gray-500 lg:max-w-xs text-center lg:text-left">
                     Revolutionizing home inspector office management and report writing with our cutting-edge software.
                 </p>
-                <div class="flex mt-4 space-x-4 justify-center lg:justify-start sm:mt-0 ">
-                    <a href="https://www.facebook.com/desklogicupdates" class="w-9 h-9 rounded-full bg-[var(--[var(--app-1)])] hover:bg-[var(--app-2)] transition duration-300 ease-in-out flex justify-center items-center ">
+                <div class="footer__social flex mt-4 space-x-4 justify-center lg:justify-start sm:mt-0 ">
+                    <a href="https://www.facebook.com/desklogicupdates" class="w-9 h-9 rounded-full bg-[var(--app-1)] hover:bg-[var(--app-2)] transition duration-300 ease-in-out flex justify-center items-center ">
                         <svg class="w-[1rem] h-[1rem] text-white" viewBox="0 0 10 16" xmlns="http://www.w3.org/2000/svg">
                             <path d="M3 16V9H0V6H3V4C3 1.3 4.7 0 7.1 0C8.3 0 9.2 0.1 9.5 0.1V2.9H7.8C6.5 2.9 6.2 3.5 6.2 4.4V6H10L9 9H6.3V16H3Z" fill="currentColor"></path>
                         </svg>
@@ -85,32 +85,34 @@
                     </a>
                 </div>
             </div>
-            <div class="lg:mx-auto text-center sm:text-left mt-8 md:mt-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
-                <h4 class="text-lg text-gray-900 font-medium mb-7">Company</h4>
-                <ul class="text-sm transition-all duration-500">
-                    <li class="mb-6"><a class="text-gray-600 hover:text-gray-900" href="<?php echo esc_url( home_url( '/features' ) ); ?>">Features</a></li>
-                    <li class="mb-6"><a class="text-gray-600 hover:text-gray-900" href="<?php echo esc_url( home_url( '/pricing' ) ); ?>">Pricing</a></li>
-                    <li><a class="text-gray-600 hover:text-gray-900" href="<?php echo esc_url( home_url( '/connect' ) ); ?>">Connect</a></li>
-                </ul>
-            </div>
-            <div class="lg:mx-auto text-center sm:text-left mt-8 md:mt-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
-                <h4 class="text-lg text-gray-900 font-medium mb-7">Digital Solutions</h4>
-                <ul class="text-sm transition-all duration-500">
-                    <li class="mb-6"><a class="text-gray-600 hover:text-gray-900" href="<?php echo esc_url( home_url( '/managed-wordpress-hosting' ) ); ?>">Web Hosting</a></li>
-                    <li class="mb-6"><a class="text-gray-600 hover:text-gray-900" href="<?php echo esc_url( home_url( '/web-design-development' ) ); ?>">Website Development</a></li>
-                </ul>
-            </div>
-            <div class="lg:mx-auto text-center sm:text-left mt-8 md:mt-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
-                <h4 class="text-lg text-gray-900 font-medium mb-7">Resources</h4>
-                <ul class="text-sm transition-all duration-500">
-                    <li class="mb-6"><a href="<?php echo esc_url( home_url( '/events' ) ); ?>" class="text-gray-600 hover:text-gray-900">Events</a></li>
-                    <li class="mb-6"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="text-gray-600 hover:text-gray-900" >Quick Start</a></li>
-                    <li class="mb-6"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="text-gray-600 hover:text-gray-900">Documentation</a></li>
-                </ul>
+            <div class="flex flex-col sm:flex-row w-full lg:w-3/5 gap-4 lg:gap-8">
+                <div class="footer__col footer__col--company w-full sm:w-1/3 flex flex-col text-center lg:text-left items-center lg:items-start mt-8 lg:mt-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+                    <h4 class="footer__heading text-lg text-gray-900 font-medium mb-7">Company</h4>
+                    <ul class="footer__links text-sm transition-all duration-500">
+                        <li class="mb-6"><a class="text-gray-600 hover:text-gray-900" href="<?php echo esc_url( home_url( '/features' ) ); ?>">Features</a></li>
+                        <li class="mb-6"><a class="text-gray-600 hover:text-gray-900" href="<?php echo esc_url( home_url( '/pricing' ) ); ?>">Pricing</a></li>
+                        <li><a class="text-gray-600 hover:text-gray-900" href="<?php echo esc_url( home_url( '/connect' ) ); ?>">Connect</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col footer__col--digital w-full sm:w-1/3 flex flex-col text-center lg:text-left items-center lg:items-start mt-8 lg:mt-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+                    <h4 class="footer__heading text-lg text-gray-900 font-medium mb-7">Digital Solutions</h4>
+                    <ul class="footer__links text-sm transition-all duration-500">
+                        <li class="mb-6"><a class="text-gray-600 hover:text-gray-900" href="<?php echo esc_url( home_url( '/managed-wordpress-hosting' ) ); ?>">Web Hosting</a></li>
+                        <li class="mb-6"><a class="text-gray-600 hover:text-gray-900" href="<?php echo esc_url( home_url( '/web-design-development' ) ); ?>">Website Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col footer__col--resources w-full sm:w-1/3 flex flex-col text-center lg:text-left items-center lg:items-start mt-8 lg:mt-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="0">
+                    <h4 class="footer__heading text-lg text-gray-900 font-medium mb-7">Resources</h4>
+                    <ul class="footer__links text-sm transition-all duration-500">
+                        <li class="mb-6"><a href="<?php echo esc_url( home_url( '/events' ) ); ?>" class="text-gray-600 hover:text-gray-900">Events</a></li>
+                        <li class="mb-6"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="text-gray-600 hover:text-gray-900" >Quick Start</a></li>
+                        <li class="mb-6"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="text-gray-600 hover:text-gray-900">Documentation</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="py-8 border-t border-gray-200">
-            <div class="flex items-center justify-center flex-col lg:justify-between lg:flex-row">
+            <div class="flex items-center justify-center flex-col lg:justify-between lg:flex-row max-[992px]:space-y-4">
                 <span class="text-sm text-gray-500">© 2025 DESKLOGIC. All rights reserved.</span>
                 <ul class="flex items-center gap-9 mt-4 lg:mt-0">
                     <li><a class="text-sm text-gray-500" href="<?php echo esc_url( home_url( '/terms-of-service' ) ); ?>">Terms</a></li>
